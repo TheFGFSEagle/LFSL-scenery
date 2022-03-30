@@ -4,8 +4,20 @@
 	<path>torch.ac</path>
 	
 	<animation>
+		<type>noshadow</type>
+		<object-name>Glare</object-name>
+	</animation>
+	
+	<animation>
+		<type>billboard</type>
+		<object-name>Glare</object-name>
+		<spherical>true</spherical>
+	</animation>
+	
+	<animation>
 		<type>dist-scale</type>
 		<object-name>Lamp</object-name>
+		<object-name>Glare</object-name>
 		<interpolation>
 			<entry>
 				<ind>0</ind>
@@ -34,9 +46,15 @@
 			<z-m>3</z-m>
 		</center>
 	</animation>
+	
 	<!--<animation>
 		<type>dist-scale</type>
 		<object-name>Glare</object-name>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>3</z-m>
+		</center>
 		<interpolation>
 			<entry>
 				<ind>0</ind>
@@ -59,22 +77,6 @@
 				<dep>1.2</dep>
 			</entry>
 		</interpolation>
-		<center>
-			<x-m>0</x-m>
-			<y-m>0</y-m>
-			<z-m>3</z-m>
-		</center>
-	</animation>-->
-	
-	<!--<animation>
-		<type>billboard</type>
-		<object-name>Glare</object-name>
-		<spherical>true</spherical>
-	</animation>-->
-	
-	<!--<animation>
-		<type>noshadow</type>
-		<object-name>Glare</object-name>
 	</animation>-->
 	
 	<animation>
